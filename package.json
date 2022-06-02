@@ -1,0 +1,26 @@
+{
+  "name": "dev-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sstabile2U/dev-api.git"
+  },
+  "author": "Steven Stabile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sstabile2U/dev-api/issues"
+  },
+  "homepage": "https://github.com/sstabile2U/dev-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "google-spreadsheet": "^3.3.0",
+    "node-fetch": "^3.2.5"
+  }
+}
