@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 app.post('/classes', (req, res) => {
 
     // Initialize the sheet - doc ID is the long id in the sheets URL
-    const doc = new GoogleSpreadsheet('1Wh9Ibg0_SOiHJ-WqiEHMMIVseGnCKspr3swovgJs3F8');
+    const doc = new GoogleSpreadsheet('1iFKOX_0BG46ZVEEPfBnytH8LsFdAsjbDro_BI1PibD4');
 
     // Initialize Auth - see https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication
     (async function() {
